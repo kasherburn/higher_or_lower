@@ -1,0 +1,83 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: firebrick;
+    font-weight: bolder;
+    background-image: url("../jack-hamilton-320934-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headingsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    background-color: white;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1vw;
+    border-style: ridge;
+    border-color: firebrick;
+}
+
+.headings {
+    display: flex;
+    align-self: center;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.buttons {
+    display: flex;
+    align-self: auto;
+    background: transparent;
+    background-color: firebrick;
+    color: white;
+    margin: 2vw;
+    width: 6vw;
+    height: 3vw;
+    justify-content: space-evenly;
+    border-radius: 6px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    
+
+}
+
+.cardImageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding: 50pt; */
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 15vw;
+    border: none;
+    
+
+}
+
+.cardImages {
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+    height: 25vw;
+    border: nones;
+
+}
+
+p {
+    font-size: 2vw;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;   
+}
